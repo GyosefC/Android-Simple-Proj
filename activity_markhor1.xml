@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".markhor1"
+    android:background="@drawable/grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Markhor"
+        android:textSize="40dp"
+        android:fontFamily="monospace"
+        android:layout_marginLeft="120dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "This exotic wild goat is also known as a “screw horn goat,” and it’s easy to see why: Its head is adorned with long, corkscrew-shaped horns. Unlike most goats, which can appear a little silly, the markhor strikes a majestic pose, with a long beard that clearly demonstrates wisdom.
+
+The species is a rare success story; thanks to dogged conservation efforts, its numbers have gone up by 20 percent, and it’s no longer on the endangered list.
+You’ll find markhor in the mountains of Pakistan, Afghanistan, Turkmenistan, the Himalayas and Uzbekistan.
+
+If you want to see one in the wild, however, plan on hiking to high elevations in remote ranges, where it’s most likely to roam."
+        android:textSize="19dp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Home"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:background="#006064"
+        android:textSize="20dp"
+        android:onClick="back"/>
+
+</LinearLayout>
